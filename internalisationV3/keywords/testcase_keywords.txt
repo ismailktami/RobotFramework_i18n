@@ -1,0 +1,6 @@
+*** Settings ***
+
+*** Keywords ***
+TestSetup
+    BuiltIn.Import Variables    ${CURDIR}/../locators/locators_testcase.txt    
+

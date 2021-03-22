@@ -1,0 +1,13 @@
+*** Settings ***
+Resource    ../../resources/commonResources.txt
+Resource    ../locators/test1_locators.txt
+Resource    ../locators/test1_locators_en.txt
+
+*** Keywords ***
+TestSetup
+    BuiltIn.Import Resource   ${EXECDIR}/internalisationV2/locators/test1_locators_${LANG}.txt
+
+Keyword1
+    Log To Console    ${button_login}    
+Keyword2
+    Log To Console    ${username}    

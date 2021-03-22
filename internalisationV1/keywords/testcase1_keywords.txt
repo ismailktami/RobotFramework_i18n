@@ -1,0 +1,13 @@
+*** Settings ***
+Library    SeleniumLibrary    
+Resource    ../../resources/commonResources.txt
+Resource    ../locators/test1_locators_en.txt
+
+*** Keywords ***
+Setup
+    BuiltIn.Import Resource    ${CURDIR}/../locators/test1_locators_${LANG}.txt
+Keyword1
+    Log To Console    ${common.error.401Content}
+Keyword2
+    Log To Console    ${common.error.403HomeButton}
+    

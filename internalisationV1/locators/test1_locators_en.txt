@@ -1,0 +1,13 @@
+*** Variables ***
+${common}	Error
+${common.error.401Content}	You don’t have the rights to access to this page, if you think you should be able to see it please contact your administrator
+${common.error.401LoginButton}	LOGIN
+${common.error.401Title}	401 - Unauthorized
+${common.error.403HomeButton}	Go back
+${common.error.403Title}	403 - Forbidden
+${common.error.403LogoutContent}	Or you can disconnect from the application.
+${common.error.404Content}	The requested page does not exist. Please go to the home page by clicking the button below.
+${common.error.404Title}	404 - Page Not found
+${common.error.KEYTOBEDEFINED}	Input Field Required Not Set
+${common.breadcrumb.endingStatements}	Ending Statement
+${common.global.all}	All
